@@ -1,0 +1,152 @@
+body {
+    background-color: #2f3136;
+    padding-left: 100px;
+}
+
+td {
+    width: 80px;
+    height: 80px;
+}
+
+.num {
+    font-size: 90%;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+}
+
+.sim {
+    font-size: 180%;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+}
+
+.nombre {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 90%;
+}
+
+.elemento {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    padding-bottom: 2px;
+}
+
+.celda {
+    text-align: center;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.sec1 {
+    position: fixed;
+    top: 10;
+}
+
+.sec2 {
+    position: fixed;
+    top: 650;
+    padding-top: 50px;
+    padding-left: 265px;
+}
+
+.titulo {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+footer {
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    position: fixed;
+    bottom: 0;
+    left: 45%;
+}
+
+.grupo {
+    padding-top: 50px;
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.periodotit {
+    padding-top: 70px;
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.periodo {
+    text-align: right;
+    padding-right: 10px;
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+}
+
+.tablasim {
+    position: fixed;
+    left: 650;
+    top: 80;
+}
+
+img {
+    width: 400px;
+}
+
+.nometal {
+    background-color: #f58021;
+}
+
+.metalalc {
+    background-color: #c92a81;
+}
+
+.alcater {
+    background-color: #fdba12;
+}
+
+.metaltrans {
+    background-color: #0088ce;
+}
+
+.otrometal {
+    background-color: #781e77;
+}
+
+.metaloide {
+    background-color: #ed1944;
+}
+
+.halogeno {
+    background-color: #a2b427;
+}
+
+.gasnoble {
+    background-color: #006a36;
+}
+
+.lantanido {
+    background-color: #8e994a;
+}
+
+.actinido {
+    background-color: #67a484;
+}

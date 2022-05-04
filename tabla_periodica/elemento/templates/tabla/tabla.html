@@ -1,0 +1,230 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'tabla/tabla.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Tabla periódica de los elementos - Programación IV</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>TABLA PERIÓDICA DE LOS ELEMENTOS</h1>
+    </div>
+    <div class="tablasim">
+        <img src="{% static 'tabla/sim.png' %}" alt="simbologia">
+    </div>
+    <div class="sec1">
+        <table class="tabla-main">
+            <tr>
+                <td class="periodotit">Periodo</td>
+                <td class="grupo">Grupo<br>1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="grupo">18</td>
+            </tr>
+            <tr>
+                <td class="periodo">1</td>
+                <td class="elemento nometal"><a href="/elemento/1"><div class="celda"><label class="num">1</label><br><label class="sim">H</label><br><label class="nombre">Hidrógeno</label></div></a></td>
+                <td class="grupo">2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="grupo">13</td>
+                <td class="grupo">14</td>
+                <td class="grupo">15</td>
+                <td class="grupo">16</td>
+                <td class="grupo">17</td>
+                <td class="elemento gasnoble"><a href="/elemento/2"><div class="celda"><label class="num">2</label><br><label class="sim">He</label><br><label class="nombre">Helio</label></div></a></td>
+            </tr>
+            <tr>
+                <td class="periodo">2</td>
+                <td class="elemento metalalc"><a href="/elemento/3"><div class="celda"><label class="num">3</label><br><label class="sim">Li</label><br><label class="nombre">Litio</label></div></a></td>
+                <td class="elemento alcater"><a href="/elemento/4"><div class="celda"><label class="num">4</label><br><label class="sim">Be</label><br><label class="nombre">Berilio</label></div></a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="elemento metaloide"><a href="/elemento/5"><div class="celda"><label class="num">5</label><br><label class="sim">B</label><br><label class="nombre">Boro</label></div></a></td>
+                <td class="elemento nometal"><a href="/elemento/6"><div class="celda"><label class="num">6</label><br><label class="sim">C</label><br><label class="nombre">Carbono</label></div></a></td>
+                <td class="elemento nometal"><a href="/elemento/7"><div class="celda"><label class="num">7</label><br><label class="sim">N</label><br><label class="nombre">Nitrógeno</label></div></a></td>
+                <td class="elemento nometal"><a href="/elemento/8"><div class="celda"><label class="num">8</label><br><label class="sim">O</label><br><label class="nombre">Oxígeno</label></div></a></td>
+                <td class="elemento halogeno"><a href="/elemento/9"><div class="celda"><label class="num">9</label><br><label class="sim">F</label><br><label class="nombre">Fluor</label></div></a></td>
+                <td class="elemento gasnoble"><a href="/elemento/10"><div class="celda"><label class="num">10</label><br><label class="sim">Ne</label><br><label class="nombre">Neon</label></div></a></td>
+            </tr>
+            <tr>
+                <td class="periodo">3</td>
+                <td class="elemento metalalc"><a href="/elemento/11"><div class="celda"><label class="num">11</label><br><label class="sim">Na</label><br><label class="nombre">Sodio</label></div></a></td>
+                <td class="elemento alcater"><a href="/elemento/12"><div class="celda"><label class="num">12</label><br><label class="sim">Mg</label><br><label class="nombre">Magnesio</label></div></a></td>
+                <td class="grupo">3</td>
+                <td class="grupo">4</td>
+                <td class="grupo">5</td>
+                <td class="grupo">6</td>
+                <td class="grupo">7</td>
+                <td class="grupo">8</td>
+                <td class="grupo">9</td>
+                <td class="grupo">10</td>
+                <td class="grupo">11</td>
+                <td class="grupo">12</td>
+                <td class="elemento otrometal"><a href="/elemento/13"><div class="celda"><label class="num">13</label><br><label class="sim">Al</label><br><label class="nombre">Aluminio</label></div></a></td>
+                <td class="elemento metaloide"><a href="/elemento/14"><div class="celda"><label class="num">14</label><br><label class="sim">Si</label><br><label class="nombre">Silicio</label></div></a></td>
+                <td class="elemento nometal"><a href="/elemento/15"><div class="celda"><label class="num">15</label><br><label class="sim">P</label><br><label class="nombre">Fósforo</label></div></a></td>
+                <td class="elemento nometal"><a href="/elemento/16"><div class="celda"><label class="num">16</label><br><label class="sim">S</label><br><label class="nombre">Azufre</label></div></a></td>
+                <td class="elemento halogeno"><a href="/elemento/17"><div class="celda"><label class="num">17</label><br><label class="sim">Cl</label><br><label class="nombre">Cloro</label></div></a></td>
+                <td class="elemento gasnoble"><a href="/elemento/18"><div class="celda"><label class="num">18</label><br><label class="sim">Ar</label><br><label class="nombre">Argón</label></div></a></td>
+            </tr>
+            <tr>
+                <td class="periodo">4</td>
+                <td class="elemento metalalc"><a href="/elemento/19"><div class="celda"><label class="num">19</label><br><label class="sim">K</label><br><label class="nombre">Potasio</label></div></a></td>
+                <td class="elemento alcater"><a href="/elemento/20"><div class="celda"><label class="num">20</label><br><label class="sim">Ca</label><br><label class="nombre">Calcio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/21"><div class="celda"><label class="num">21</label><br><label class="sim">Sc</label><br><label class="nombre">Escandio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/22"><div class="celda"><label class="num">22</label><br><label class="sim">Ti</label><br><label class="nombre">Titanio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/23"><div class="celda"><label class="num">23</label><br><label class="sim">Va</label><br><label class="nombre">Vanadio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/24"><div class="celda"><label class="num">24</label><br><label class="sim">Cr</label><br><label class="nombre">Cromo</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/25"><div class="celda"><label class="num">25</label><br><label class="sim">Mn</label><br><label class="nombre">Manganeso</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/26"><div class="celda"><label class="num">26</label><br><label class="sim">Fe</label><br><label class="nombre">Hierro</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/27"><div class="celda"><label class="num">27</label><br><label class="sim">Co</label><br><label class="nombre">Cobalto</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/28"><div class="celda"><label class="num">28</label><br><label class="sim">Ni</label><br><label class="nombre">Níquel</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/29"><div class="celda"><label class="num">29</label><br><label class="sim">Cu</label><br><label class="nombre">Cobre</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/30"><div class="celda"><label class="num">30</label><br><label class="sim">Zn</label><br><label class="nombre">Zinc</label></div></a></td>
+                <td class="elemento otrometal"><a href="/elemento/31"><div class="celda"><label class="num">31</label><br><label class="sim">Ga</label><br><label class="nombre">Galio</label></div></a></td>
+                <td class="elemento metaloide"><a href="/elemento/32"><div class="celda"><label class="num">32</label><br><label class="sim">Ge</label><br><label class="nombre">Germanio</label></div></a></td>
+                <td class="elemento metaloide"><a href="/elemento/33"><div class="celda"><label class="num">33</label><br><label class="sim">As</label><br><label class="nombre">Arsénico</label></div></a></td>
+                <td class="elemento nometal"><a href="/elemento/34"><div class="celda"><label class="num">34</label><br><label class="sim">Se</label><br><label class="nombre">Selenio</label></div></a></td>
+                <td class="elemento halogeno"><a href="/elemento/35"><div class="celda"><label class="num">35</label><br><label class="sim">Br</label><br><label class="nombre">Bromo</label></div></a></td>
+                <td class="elemento gasnoble"><a href="/elemento/36"><div class="celda"><label class="num">36</label><br><label class="sim">Kr</label><br><label class="nombre">Kriptón</label></div></a></td>
+            </tr>
+            <tr>
+                <td class="periodo">5</td>
+                <td class="elemento metalalc"><a href="/elemento/37"><div class="celda"><label class="num">37</label><br><label class="sim">Rb</label><br><label class="nombre">Rubidio</label></div></a></td>
+                <td class="elemento alcater"><a href="/elemento/38"><div class="celda"><label class="num">38</label><br><label class="sim">Sr</label><br><label class="nombre">Estroncio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/39"><div class="celda"><label class="num">39</label><br><label class="sim">Y</label><br><label class="nombre">Itrio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/40"><div class="celda"><label class="num">40</label><br><label class="sim">Zr</label><br><label class="nombre">Circonio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/41"><div class="celda"><label class="num">41</label><br><label class="sim">Nb</label><br><label class="nombre">Niobio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/42"><div class="celda"><label class="num">42</label><br><label class="sim">Mo</label><br><label class="nombre">Molibdeno</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/43"><div class="celda"><label class="num">43</label><br><label class="sim">Tc</label><br><label class="nombre">Tecnecio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/44"><div class="celda"><label class="num">44</label><br><label class="sim">Ru</label><br><label class="nombre">Rutenio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/45"><div class="celda"><label class="num">45</label><br><label class="sim">Rh</label><br><label class="nombre">Rodio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/46"><div class="celda"><label class="num">46</label><br><label class="sim">Pd</label><br><label class="nombre">Paladio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/47"><div class="celda"><label class="num">47</label><br><label class="sim">Ag</label><br><label class="nombre">Plata</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/48"><div class="celda"><label class="num">48</label><br><label class="sim">Cd</label><br><label class="nombre">Cadmio</label></div></a></td>
+                <td class="elemento otrometal"><a href="/elemento/49"><div class="celda"><label class="num">49</label><br><label class="sim">In</label><br><label class="nombre">Indio</label></div></a></td>
+                <td class="elemento otrometal"><a href="/elemento/50"><div class="celda"><label class="num">50</label><br><label class="sim">Sn</label><br><label class="nombre">Estaño</label></div></a></td>
+                <td class="elemento metaloide"><a href="/elemento/51"><div class="celda"><label class="num">51</label><br><label class="sim">Sb</label><br><label class="nombre">Antimonio</label></div></a></td>
+                <td class="elemento metaloide"><a href="/elemento/52"><div class="celda"><label class="num">52</label><br><label class="sim">Te</label><br><label class="nombre">Teluro</label></div></a></td>
+                <td class="elemento halogeno"><a href="/elemento/53"><div class="celda"><label class="num">53</label><br><label class="sim">I</label><br><label class="nombre">Yodo</label></div></a></td>
+                <td class="elemento gasnoble"><a href="/elemento/54"><div class="celda"><label class="num">54</label><br><label class="sim">Xe</label><br><label class="nombre">Xenón</label></div></a></td>
+            </tr>
+            <tr>
+                <td class="periodo">6</td>
+                <td class="elemento metalalc"><a href="/elemento/55"><div class="celda"><label class="num">55</label><br><label class="sim">Cs</label><br><label class="nombre">Cesio</label></div></a></td>
+                <td class="elemento alcater"><a href="/elemento/56"><div class="celda"><label class="num">56</label><br><label class="sim">Ba</label><br><label class="nombre">Bario</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/71"><div class="celda"><label class="num">71</label><br><label class="sim">Lu</label><br><label class="nombre">Lutecio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/72"><div class="celda"><label class="num">72</label><br><label class="sim">Hf</label><br><label class="nombre">Hafnio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/73"><div class="celda"><label class="num">73</label><br><label class="sim">Ta</label><br><label class="nombre">Tantalo</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/74"><div class="celda"><label class="num">74</label><br><label class="sim">W</label><br><label class="nombre">Volframio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/75"><div class="celda"><label class="num">75</label><br><label class="sim">Re</label><br><label class="nombre">Renio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/76"><div class="celda"><label class="num">76</label><br><label class="sim">Os</label><br><label class="nombre">Osmio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/77"><div class="celda"><label class="num">77</label><br><label class="sim">Ir</label><br><label class="nombre">Iridio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/78"><div class="celda"><label class="num">78</label><br><label class="sim">Pt</label><br><label class="nombre">Platino</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/79"><div class="celda"><label class="num">79</label><br><label class="sim">Au</label><br><label class="nombre">Oro</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/80"><div class="celda"><label class="num">80</label><br><label class="sim">Hg</label><br><label class="nombre">Mercurio</label></div></a></td>
+                <td class="elemento otrometal"><a href="/elemento/81"><div class="celda"><label class="num">81</label><br><label class="sim">Tl</label><br><label class="nombre">Talio</label></div></a></td>
+                <td class="elemento otrometal"><a href="/elemento/82"><div class="celda"><label class="num">82</label><br><label class="sim">Pb</label><br><label class="nombre">Plomo</label></div></a></td>
+                <td class="elemento otrometal"><a href="/elemento/83"><div class="celda"><label class="num">83</label><br><label class="sim">Bi</label><br><label class="nombre">Bismuto</label></div></a></td>
+                <td class="elemento metaloide"><a href="/elemento/84"><div class="celda"><label class="num">84</label><br><label class="sim">Po</label><br><label class="nombre">Polonio</label></div></a></td>
+                <td class="elemento halogeno"><a href="/elemento/85"><div class="celda"><label class="num">85</label><br><label class="sim">At</label><br><label class="nombre">Astrato</label></div></a></td>
+                <td class="elemento gasnoble"><a href="/elemento/86"><div class="celda"><label class="num">86</label><br><label class="sim">Rn</label><br><label class="nombre">Radón</label></div></a></td>
+            </tr>
+            <tr>
+                <td class="periodo">7</td>
+                <td class="elemento metalalc"><a href="/elemento/87"><div class="celda"><label class="num">87</label><br><label class="sim">Fr</label><br><label class="nombre">Francio</label></div></a></td>
+                <td class="elemento alcater"><a href="/elemento/88"><div class="celda"><label class="num">88</label><br><label class="sim">Ra</label><br><label class="nombre">Radio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/103"><div class="celda"><label class="num">103</label><br><label class="sim">Lr</label><br><label class="nombre">Laurencio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/104"><div class="celda"><label class="num">104</label><br><label class="sim">Rf</label><br><label class="nombre">Rutherfordio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/105"><div class="celda"><label class="num">105</label><br><label class="sim">Db</label><br><label class="nombre">Dubnio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/106"><div class="celda"><label class="num">106</label><br><label class="sim">Sg</label><br><label class="nombre">Seaborgio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/107"><div class="celda"><label class="num">107</label><br><label class="sim">Bh</label><br><label class="nombre">Bohrio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/108"><div class="celda"><label class="num">108</label><br><label class="sim">Hs</label><br><label class="nombre">Hassio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/109"><div class="celda"><label class="num">109</label><br><label class="sim">Mt</label><br><label class="nombre">Meitnerio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/110"><div class="celda"><label class="num">110</label><br><label class="sim">Ds</label><br><label class="nombre">Darmstadtio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/111"><div class="celda"><label class="num">111</label><br><label class="sim">Rg</label><br><label class="nombre">Roentgenio</label></div></a></td>
+                <td class="elemento metaltrans"><a href="/elemento/112"><div class="celda"><label class="num">112</label><br><label class="sim">Cn</label><br><label class="nombre">Copernicio</label></div></a></td>
+                <td class="elemento otrometal"><a href="/elemento/113"><div class="celda"><label class="num">113</label><br><label class="sim">Nh</label><br><label class="nombre">Nihonio</label></div></a></td>
+                <td class="elemento otrometal"><a href="/elemento/114"><div class="celda"><label class="num">114</label><br><label class="sim">Fl</label><br><label class="nombre">Flerovio</label></div></a></td>
+                <td class="elemento otrometal"><a href="/elemento/115"><div class="celda"><label class="num">115</label><br><label class="sim">Mc</label><br><label class="nombre">Moscovio</label></div></a></td>
+                <td class="elemento otrometal"><a href="/elemento/116"><div class="celda"><label class="num">116</label><br><label class="sim">Lv</label><br><label class="nombre">Livermorio</label></div></a></td>
+                <td class="elemento halogeno"><a href="/elemento/117"><div class="celda"><label class="num">117</label><br><label class="sim">Ts</label><br><label class="nombre">Teneso</label></div></a></td>
+                <td class="elemento gasnoble"><a href="/elemento/118"><div class="celda"><label class="num">118</label><br><label class="sim">Og</label><br><label class="nombre">Oganesón</label></div></a></td>
+            </tr>
+        </table>
+    </div>
+    <div class="sec2">
+        <table>
+            <tr>
+                <td class="elemento lantanido"><a href="/elemento/57"><div class="celda"><label class="num">57</label><br><label class="sim">La</label><br><label class="nombre">Lantano</label></div></a></td>
+                <td class="elemento lantanido"><a href="/elemento/58"><div class="celda"><label class="num">58</label><br><label class="sim">Ce</label><br><label class="nombre">Cerio</label></div></a></td>
+                <td class="elemento lantanido"><a href="/elemento/59"><div class="celda"><label class="num">59</label><br><label class="sim">Pr</label><br><label class="nombre">Praseodimio</label></div></a></td>
+                <td class="elemento lantanido"><a href="/elemento/60"><div class="celda"><label class="num">60</label><br><label class="sim">Nd</label><br><label class="nombre">Neodimio</label></div></a></td>
+                <td class="elemento lantanido"><a href="/elemento/61"><div class="celda"><label class="num">61</label><br><label class="sim">Pm</label><br><label class="nombre">Prometio</label></div></a></td>
+                <td class="elemento lantanido"><a href="/elemento/62"><div class="celda"><label class="num">62</label><br><label class="sim">Sm</label><br><label class="nombre">Samario</label></div></a></td>
+                <td class="elemento lantanido"><a href="/elemento/63"><div class="celda"><label class="num">63</label><br><label class="sim">Eu</label><br><label class="nombre">Europio</label></div></a></td>
+                <td class="elemento lantanido"><a href="/elemento/64"><div class="celda"><label class="num">64</label><br><label class="sim">Gd</label><br><label class="nombre">Gadolinio</label></div></a></td>
+                <td class="elemento lantanido"><a href="/elemento/65"><div class="celda"><label class="num">65</label><br><label class="sim">Tb</label><br><label class="nombre">Terbio</label></div></a></td>
+                <td class="elemento lantanido"><a href="/elemento/66"><div class="celda"><label class="num">66</label><br><label class="sim">Dy</label><br><label class="nombre">Disprosio</label></div></a></td>
+                <td class="elemento lantanido"><a href="/elemento/67"><div class="celda"><label class="num">67</label><br><label class="sim">Ho</label><br><label class="nombre">Holmio</label></div></a></td>
+                <td class="elemento lantanido"><a href="/elemento/68"><div class="celda"><label class="num">68</label><br><label class="sim">Er</label><br><label class="nombre">Erbio</label></div></a></td>
+                <td class="elemento lantanido"><a href="/elemento/69"><div class="celda"><label class="num">69</label><br><label class="sim">Tm</label><br><label class="nombre">Tulio</label></div></a></td>
+                <td class="elemento lantanido"><a href="/elemento/70"><div class="celda"><label class="num">70</label><br><label class="sim">Yb</label><br><label class="nombre">Iterbio</label></div></a></td>
+            </tr>
+            <tr>
+                <td class="elemento actinido"><a href="/elemento/89"><div class="celda"><label class="num">89</label><br><label class="sim">Ac</label><br><label class="nombre">Actinio</label></div></a></td>
+                <td class="elemento actinido"><a href="/elemento/90"><div class="celda"><label class="num">90</label><br><label class="sim">Th</label><br><label class="nombre">Torio</label></div></a></td>
+                <td class="elemento actinido"><a href="/elemento/91"><div class="celda"><label class="num">91</label><br><label class="sim">Pa</label><br><label class="nombre">Proactinio</label></div></a></td>
+                <td class="elemento actinido"><a href="/elemento/92"><div class="celda"><label class="num">92</label><br><label class="sim">U</label><br><label class="nombre">Uranio</label></div></a></td>
+                <td class="elemento actinido"><a href="/elemento/93"><div class="celda"><label class="num">93</label><br><label class="sim">Np</label><br><label class="nombre">Neptunio</label></div></a></td>
+                <td class="elemento actinido"><a href="/elemento/94"><div class="celda"><label class="num">94</label><br><label class="sim">Pu</label><br><label class="nombre">Plutonio</label></div></a></td>
+                <td class="elemento actinido"><a href="/elemento/95"><div class="celda"><label class="num">95</label><br><label class="sim">Am</label><br><label class="nombre">Americio</label></div></a></td>
+                <td class="elemento actinido"><a href="/elemento/96"><div class="celda"><label class="num">96</label><br><label class="sim">Cm</label><br><label class="nombre">Curio</label></div></a></td>
+                <td class="elemento actinido"><a href="/elemento/97"><div class="celda"><label class="num">97</label><br><label class="sim">Bk</label><br><label class="nombre">Berquelio</label></div></a></td>
+                <td class="elemento actinido"><a href="/elemento/98"><div class="celda"><label class="num">98</label><br><label class="sim">Cf</label><br><label class="nombre">Californio</label></div></a></td>
+                <td class="elemento actinido"><a href="/elemento/99"><div class="celda"><label class="num">99</label><br><label class="sim">Es</label><br><label class="nombre">Einstenio</label></div></a></td>
+                <td class="elemento actinido"><a href="/elemento/100"><div class="celda"><label class="num">100</label><br><label class="sim">Fm</label><br><label class="nombre">Fermio</label></div></a></td>
+                <td class="elemento actinido"><a href="/elemento/101"><div class="celda"><label class="num">101</label><br><label class="sim">Md</label><br><label class="nombre">Mendelevio</label></div></a></td>
+                <td class="elemento actinido"><a href="/elemento/102"><div class="celda"><label class="num">102</label><br><label class="sim">No</label><br><label class="nombre">Nobelio</label></div></a></td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <h4>© 2022 Luis Fernando Acosta Virgen</h4>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'elemento/styles.css' %}">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Proyecto Programación IV - Tabla Periódica</title>
+</head>
+<body>
+  <div class="sidebar">
+    <p><a class="links" href="/">Volver a la tabla</a></p>
+    <p><a class="links" href="/elemento/100">Random</a></p>
+  </div>
+  <div class="main">
+    <div class="elecard">
+      <div class="atonum">
+        {{ num_atom }}
+      </div>
+      <div class="symbol">
+        {{ elemento }}
+      </div>
+      <div class="name">
+        {{ nombre }}
+      </div>
+      <div class="atomass">
+        {{ masa }}
+      </div>
+    </div>
+    <div class="table text-center">
+      <table>
+        <tr class="table-dark">
+          <th class="hed">Periodo</th>
+          <th class="hed">Grupo</th>
+          <th class="hed">Estructura</th>
+          <th class="hed">Configuración electrónica</th>
+          <th class="hed">Año de descubrimiento</th>
+          <th class="hed">Densidad</th>
+        </tr>
+        <tr class="table-light cont">
+          <td>{{ periodo }}</td>
+          <td>{{ grupo }}</td>
+          <td>{{ estructura }}</td>
+          <td>{{ conf_elec }}</td>
+          <td>{{ descubrimiento }}</td>
+          <td>{{ densidad }}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
